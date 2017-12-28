@@ -68,3 +68,18 @@ open http://localhost:8000/v1/pets?limit=10; npm start
   eager for feedback.
   elsewise the consumer could exist in another repo.
 ```
+
+## Additional Ramblings/ things you should know;
+```
+req ... comes in as an object whose keys can be accessed with "."'s
+
+instead of the entire request object.
+ofen req.query is used. req.pathname leads to the autocreated handler file and therefore not always required.
+for your viewing purposes, a full req object availiable in the repo folder.
+
+This is most simular to web scraping objects.
+in that the whole object is not required but everything is given.
+
+you can add a new handler by modifying config/swagger.json
+adding the path and then adding the file that would correspond with that path.
+```
