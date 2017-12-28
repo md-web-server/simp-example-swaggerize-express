@@ -16,5 +16,5 @@ git clone https://github.com/MichaelDimmitt/simp-example-swaggerize-express.git;
 cd simp-example-swaggerize-express
 yo swaggerize
 
+*when prompted input:* openapi.json
 ```
-*more information coming*
