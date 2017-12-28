@@ -59,4 +59,12 @@ cd fred
 open http://localhost:8000/v1/pets?limit=10; npm start
 
 ```
+## Up next
+```
+  consuming these endpoints, I am considering keeping all of this in the same repo.
+  the api autogenerates in a subfolder. 
+    therefore the rationale is the consumer as an adjacent folder.
 
+  eager for feedback.
+  elsewise the consumer could exist in another repo.
+```
